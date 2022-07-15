@@ -1,0 +1,225 @@
+{
+    "type": "FeatureCollection",
+    "query": [
+        "lagos"
+    ],
+    "features": [
+        {
+            "id": "place.15643686344679850",
+            "type": "Feature",
+            "place_type": [
+                "place"
+            ],
+            "relevance": 1,
+            "properties": {
+                "wikidata": "Q8673"
+            },
+            "text": "Lagos",
+            "place_name": "Lagos, Lagos, Nigeria",
+            "bbox": [
+                3.084126,
+                6.394674,
+                3.672309,
+                6.691671
+            ],
+            "center": [
+                3.4,
+                6.45
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.4,
+                    6.45
+                ]
+            },
+            "context": [
+                {
+                    "id": "region.6291648877679850",
+                    "wikidata": "Q8673",
+                    "text": "Lagos"
+                },
+                {
+                    "id": "country.15119604752034950",
+                    "wikidata": "Q1033",
+                    "short_code": "ng",
+                    "text": "Nigeria"
+                }
+            ]
+        },
+        {
+            "id": "region.6291648877679850",
+            "type": "Feature",
+            "place_type": [
+                "region"
+            ],
+            "relevance": 1,
+            "properties": {
+                "wikidata": "Q8673"
+            },
+            "text": "Lagos",
+            "place_name": "Lagos, Nigeria",
+            "bbox": [
+                2.68300261150613,
+                6.26733001490867,
+                4.35377599637316,
+                6.69679678105452
+            ],
+            "center": [
+                3.4,
+                6.45
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.4,
+                    6.45
+                ]
+            },
+            "context": [
+                {
+                    "id": "country.15119604752034950",
+                    "wikidata": "Q1033",
+                    "short_code": "ng",
+                    "text": "Nigeria"
+                }
+            ]
+        },
+        {
+            "id": "place.13927466462250260",
+            "type": "Feature",
+            "place_type": [
+                "place"
+            ],
+            "relevance": 1,
+            "properties": {
+                "wikidata": "Q1962295"
+            },
+            "text": "Lagos de Moreno",
+            "place_name": "Lagos de Moreno, Jalisco, Mexico",
+            "bbox": [
+                -102.168824,
+                21.177025,
+                -101.570449,
+                21.889438
+            ],
+            "center": [
+                -101.91667,
+                21.35
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.91667,
+                    21.35
+                ]
+            },
+            "context": [
+                {
+                    "id": "region.9731098207993510",
+                    "short_code": "MX-JAL",
+                    "wikidata": "Q13160",
+                    "text": "Jalisco"
+                },
+                {
+                    "id": "country.5596864799773450",
+                    "wikidata": "Q96",
+                    "short_code": "mx",
+                    "text": "Mexico"
+                }
+            ]
+        },
+        {
+            "id": "place.15097159012679850",
+            "type": "Feature",
+            "place_type": [
+                "place"
+            ],
+            "relevance": 1,
+            "properties": {
+                "wikidata": "Q732548"
+            },
+            "text": "Lagos",
+            "place_name": "Lagos, Faro, Portugal",
+            "bbox": [
+                -8.723353235,
+                37.078873654,
+                -8.642644798,
+                37.151691122
+            ],
+            "center": [
+                -8.6725,
+                37.1011
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6725,
+                    37.1011
+                ]
+            },
+            "context": [
+                {
+                    "id": "region.5299297742456210",
+                    "short_code": "PT-08",
+                    "wikidata": "Q244521",
+                    "text": "Faro"
+                },
+                {
+                    "id": "country.17685755453527380",
+                    "wikidata": "Q45",
+                    "short_code": "pt",
+                    "text": "Portugal"
+                }
+            ]
+        },
+        {
+            "id": "locality.10999846448445050",
+            "type": "Feature",
+            "place_type": [
+                "locality"
+            ],
+            "relevance": 1,
+            "properties": {},
+            "text": "Lagos De Chile",
+            "place_name": "Lagos De Chile, El Bosque, Santiago Metropolitan, Chile",
+            "bbox": [
+                -70.686280404,
+                -33.54919268,
+                -70.668141327,
+                -33.539127181
+            ],
+            "center": [
+                -70.678883,
+                -33.543722
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.678883,
+                    -33.543722
+                ]
+            },
+            "context": [
+                {
+                    "id": "place.6651824415837200",
+                    "wikidata": "Q13036",
+                    "text": "El Bosque"
+                },
+                {
+                    "id": "region.11987373497088650",
+                    "short_code": "CL-RM",
+                    "wikidata": "Q2131",
+                    "text": "Santiago Metropolitan"
+                },
+                {
+                    "id": "country.14014124184731110",
+                    "wikidata": "Q298",
+                    "short_code": "cl",
+                    "text": "Chile"
+                }
+            ]
+        }
+    ],
+    "attribution": "NOTICE: © 2022 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}
