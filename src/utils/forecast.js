@@ -10,13 +10,16 @@ const url = `http://api.weatherstack.com/current?access_key=02c3ce3f10a48c806e97
         const temperature = body.current.temperature;
         const feels = body.current.feelslike;
         const description = body.current.weather_descriptions;
+        const humidity = body.current.humidity;
+        const visibility = body.current.visibility;
         if (error) {
             callback('Unable to connect to location services!', undefined)
         } else if (body.error) {
             callback('Unable to find location', undefined)
         }
          else {
-            callback(undefined, `its currently ${temperature} degress out there, it is ${description} and it feels like ${feels} degrees out.`)
+            callback(undefined, `its currently ${temperature} degress out there, it is ${description} 
+            with a humidity of ${humidity}, it feels like ${feels} degrees out with visibility of ${visibility}`)
         }
     })
 }
