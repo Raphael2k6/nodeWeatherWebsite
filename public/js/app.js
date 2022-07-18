@@ -15,7 +15,7 @@ const messageTwo = document.querySelector('#message-2')
                 messageTwo.textContent = data.error
                 messageOne.textContent = ''
             } else {
-                messageOne.textContent = data.forcast;
+                messageOne.textContent = data.location;
                 messageTwo.textContent = data.forcast;
             }
         }).catch((err) => {
